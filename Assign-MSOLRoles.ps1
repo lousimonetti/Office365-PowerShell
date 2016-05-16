@@ -13,11 +13,11 @@ Assigns a Role to an MSOL Portal User
 The Login-MSOLServices will check to see if you are already logged in. If not, it will establish the authentication token and connect you to the MSOL Services. 
 Then the Get-TargetMSOLRole function will get the role for the corresponding keyword parameter. Lastly, the Assign-RoleForMSOLUser function will assign role to the target user.
 
-.PARAMETER RoleName 
+.PARAMETER roleName 
 
 Full name of Role, i.e., "Helpdesk Administrator".
 
-.PARAMETER UserPrincipalName
+.PARAMETER userPrincipalName
 
 The user principal name, i.e., UserId@Domain.com.
 
